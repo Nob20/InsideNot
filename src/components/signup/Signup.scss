@@ -1,0 +1,21 @@
+@import "../../styles/app-variables";
+
+.signup-page {
+  .signup-button {
+    font-size: 20px;
+    height: 50px;
+  }
+
+  .login-button {
+    float: right;
+    margin: 0 20px 0 0px;
+  }
+
+  .vertical-hr {
+    float: right;
+    width: 1px;
+    height: 450px;
+    border-right: 1px solid $custom-border-color;
+    text-align: right;
+  }
+}

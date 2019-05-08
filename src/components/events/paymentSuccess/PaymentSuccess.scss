@@ -1,0 +1,26 @@
+.payment-confirmation-page {
+  padding: 30px;
+  .success-icon {
+    text-align: center;
+    font-size: 90px;
+    color: green;
+  }
+
+  .success-message {
+    padding: 20px;
+    text-align: center;
+  }
+  .find-more-events{
+    text-align: center;
+    align-content: center;
+    display: flex;
+
+
+  }
+  .form-actions {
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,31 @@
+@import "../../styles/app-variables";
+
+.login-page {
+  .login-container {
+    background-color: white;
+    border: 1px solid grey;
+    min-height: 400px;
+  }
+
+  .sso-login-container {
+    border: thick solid #ff0000;
+  }
+
+  .vertical-hr {
+    float: right;
+    width: 1px;
+    height: 300px;
+    border-right: 1px solid $custom-border-color;
+    text-align: right;
+  }
+
+  .login-button {
+    font-size: 20px;
+    height: 50px;
+  }
+
+  .signup-button {
+    float: right;
+    margin: 0 20px 0 0px;
+  }
+}

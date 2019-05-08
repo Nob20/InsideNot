@@ -1,0 +1,28 @@
+.event-details-container {
+
+  .cover-image-container {
+    cursor: pointer;
+    text-align: center;
+    .cover-image{
+      width: 100%;
+    }
+  }
+
+  .image-thumbnail-wrapper {
+    cursor: pointer;
+    float: left;
+    margin-top: 15px;
+    padding: 0px 10px 0px 10px;
+
+    display: inline-block;
+    position: relative;
+    text-align: center;
+
+
+    .image-thumbnail {
+      width: 100%;
+      border: solid 1px lightgray;
+    }
+  }
+}
+

@@ -1,0 +1,17 @@
+.core-layout__viewport {
+  // padding-top: 4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.core-layout-wrapper{
+  height: 100% !important;
+}
+
+.wrap-content {
+  min-height: calc(100vh - 360px);
+  padding-bottom: 70px;
+}

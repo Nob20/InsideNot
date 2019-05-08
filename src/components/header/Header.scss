@@ -1,0 +1,61 @@
+.route--active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.custom-nav-item{
+  height: 65px;
+
+    a {
+      padding-bottom: 0px !important;
+      padding-top: 0px !important;
+      display: table-cell;
+      line-height: 65px !important;
+    }
+    ul {
+      li {
+        a {
+          line-height: 25px !important;
+        }
+      }
+    }
+
+}
+.nav-txt{
+  color: #ffffff !important;
+  font-weight: bold;
+  span {
+    color: red;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-inverse {
+    background-color: transparent !important;
+    z-index: 2;
+    width: 100%;
+    border: none !important;
+    height: 310px;
+  }
+  .navbar {
+    height: 0px;
+  }
+  .navbar-nav {
+    width: 50%;
+    float: right;
+    margin-top: 0px !important;
+    background-color: #222222;
+  }
+  .navbar-header {
+    background-color: #333333;
+  }
+  .dropdown-menu {
+    float: left !important;
+  }
+  .divider {
+    margin-top: 0px !important ;
+  }
+  .home-heading {
+    text-align: inherit !important;
+  }
+}

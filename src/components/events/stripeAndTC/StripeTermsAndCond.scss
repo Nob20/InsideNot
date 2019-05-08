@@ -1,0 +1,73 @@
+.edit-event {
+
+  .eventPaymentOption {
+    .paymentOptionHeading {
+      padding: 0px 10px 0px 10px;
+      font-weight: 700;
+    }
+    .paymentOptionExplanation {
+      margin: 0px 20px 0px 20px;
+      font-size: 12px;
+    }
+  }
+  .stripe-connect-button {
+    display: inline-block;
+    margin-bottom: 1px;
+    background-image: -webkit-linear-gradient(#28a0e5, #015e94);
+    background-image: linear-gradient(#28a0e5, #015e94);
+    -webkit-font-smoothing: antialiased;
+    border: 0;
+    padding: 1px;
+    height: 32px;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none !important;
+    span {
+      display: block;
+      position: relative;
+      padding: 0 12px;
+      height: 30px;
+      background: #1275ff;
+      background-image: -webkit-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+      background-image: linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+      font-size: 15px;
+      line-height: 30px;
+      color: #fff;
+      font-weight: 700;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+      box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, .25);
+      border-radius: 3px;
+      padding-left: 44px;
+      &:before {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAwCAYAAABuZUjcAAAKRGlDQ…4G1JV8wPGbRadx52sgLmrRAZ99EZ5+LZgV+v+4Llrg/wX6HRCxgvzAAwAAAABJRU5ErkJggg==);
+      }
+    }
+  }
+
+  .stripe-connect-status {
+    margin-left: 10px;
+    .info-icon {
+      font-size: 30px;
+    }
+
+    .info-text {
+      font-size: 13px;
+    }
+
+    .success {
+      color: green;
+    }
+
+    .failure {
+      color: red;
+      font-size: 13px;
+    }
+  }
+}

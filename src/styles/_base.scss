@@ -1,0 +1,23 @@
+body {
+  background-color: rgba(0, 0, 0, 0.05);
+  font: Lato !important;
+}
+
+.page-title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.container-wrapper {
+  @extend .container;
+  vertical-align: middle;
+  border: 1px solid $custom-border-color ;
+  background-color: white;
+  padding: 35px 20px 35px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.in-spinner {
+  font-size: 4em;
+}

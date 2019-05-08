@@ -1,0 +1,15 @@
+.login-buttons {
+  font-size: 20px;
+  color: #fff;
+  height: 50px;
+}
+
+.login-button-facebook {
+  @extend .login-buttons;
+  background-color: #4c69ba;
+}
+
+.login-button-google {
+  @extend .login-buttons;
+  background: rgb(209, 72, 54);
+}
